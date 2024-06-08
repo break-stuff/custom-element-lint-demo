@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "servor --reload",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.15.1"
+  },
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.24.1",
+    "@html-eslint/parser": "^0.24.1",
+    "custom-element-eslint-rule-generator": "^1.0.0-alpha.2",
+    "eslint": "^9.4.0",
+    "eslint-plugin-custom-element": "^1.0.0-alpha.0"
+  }
+}
